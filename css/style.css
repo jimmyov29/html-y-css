@@ -46,3 +46,35 @@ input{
 .btn-submit-container{
     margin: 0 auto;
 }
+
+.main-nav{
+    margin-top:  10px;
+    list-style: none;
+    padding-left: 0;
+    background: red;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Pseudoclases */
+.main-nav__item a:hover{
+    color: black;
+}
+.main-nav__item a:active{
+    color: green;
+}
+
+
+/* Pseudoelementos */
+
+.main-nav__item a::after{
+    content: " | ";
+}
