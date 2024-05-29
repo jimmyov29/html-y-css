@@ -116,6 +116,11 @@ main{
     font-family: monospace;
 }
 
-h2 + p{
+/* toda la equita de parrafo que este cerca de un h2 aplica */
+/* h2 + p{
+    color: red;
+} */
+
+h2 ~ p{
     color: red;
 }
