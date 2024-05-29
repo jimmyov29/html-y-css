@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+figure{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+figcaption{
+    color: #ccc;
+}
+
+form{
+    display: grid;
+    width: 50%;
+    gap: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+}
+
+.perrito-img{
+    width: 400px;
+
+}
+
+.form-section{
+    display: grid;
+    place-items: center;
+}
+.btn-submit-container{
+    margin: 0 auto;
+}
