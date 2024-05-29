@@ -92,3 +92,12 @@ main{
     border: 14px solid gray;
     margin: 0;
 }
+
+
+.padre{
+    color: red;
+}
+
+.hijo{
+    color: inherit;
+}
