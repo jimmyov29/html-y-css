@@ -121,6 +121,16 @@ main{
     color: red;
 } */
 
+/* aplica el estilo a todos los que existen en el mismo nivel */
 h2 ~ p{
     color: red;
+}
+
+/* hijo directo afecta a los p que son hijos de un div */
+div > p {
+    color: red;
+}
+/* hijo descendiente afecta a todos los p que esten dentro del div */
+div h3{
+    color: green;
 }
