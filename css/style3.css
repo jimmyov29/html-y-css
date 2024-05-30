@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #ccc;
+    padding: 16px 24px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    
+}
+
+aside{
+    height: 100%;
+    display: inline-block;
+    background: #cc4;
+    /* overflow: scroll; */
+}
+
+.adds{
+    height: 12rem;
+    width: 16rem;
+    border-radius: 1rem;
+    background: #fff;
+    margin: 2rem;
+}
+
+.container{
+    display: flex;
+    overflow-y: hidden;
+    
+}
+
+section > p {
+    padding: 2rem;
+}
