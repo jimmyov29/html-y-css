@@ -1,3 +1,3 @@
-function openInNewTab(url){
-    window.open(url, '_blank').focus();
-}
+$(function(){
+    $('[data-toggle="tooltop"]').tooltip()
+})
